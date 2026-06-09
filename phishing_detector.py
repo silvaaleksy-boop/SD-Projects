@@ -1,4 +1,4 @@
-#This project aims to demonstrate basic phishing detection capabilities.
+# This project aims to demonstrate basic phishing detection capabilities.
 
 import re
 import pandas as pd 
@@ -6,7 +6,7 @@ import pandas as pd
 print("Done")
 
 
-#Phishing Detection Function
+# Phishing Detection Function
 Define a function that takes input text (e.g., from an email or a document) and analyzes it for phishing indicators. Initially, this function will look for common suspicious patterns.
                         def detect_phishing(text: str) -> dict:
     """
