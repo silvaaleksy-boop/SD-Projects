@@ -27,7 +27,3 @@ print(f"Test 1: {result_1}\n")
 legit_text = "Hello, your order #12345 has been shipped. Track your package here: https://example.com/track"
 result_legit = detect_phishing(legit_text)
 print(f"Test 3 (Legitimate): {result_legit}\n")
-
-
-
-n")
