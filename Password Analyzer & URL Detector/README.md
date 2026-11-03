@@ -1,7 +1,7 @@
 README: Project Overview & Code Description
 Password Analyzer & URL Detector
 
-Password Analyzer & URL Detector is a lightweight, privacy-focused desktop application designed to evaluate key aspects of personal digital security. Operating entirely offline, it ensures that sensitive credentials and analyzed links are never transmitted over the network.
+Password Analyzer & URL Detector is a lightweight, privacy focused desktop application designed to evaluate key aspects of personal digital security. Operating entirely offline, it ensures that sensitive credentials and analyzed links are not transmitted over the network.
 
 Application Features
 Password Strength Analyzer: Uses Shannon entropy calculations and character diversity checks to provide a precise, realistic assessment of password strength, moving beyond simple length requirements.
