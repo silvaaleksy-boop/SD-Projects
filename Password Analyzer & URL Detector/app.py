@@ -19,7 +19,7 @@ def calculate_shannon_entropy(password: str) -> float:
     return round(entropy * length, 2)
 
 def evaluate_password_strength(password: str) -> dict:
-    """Heuristically evaluates password strength based on length, entropy, and character diversity."""
+    """Evaluates password strength based on length, entropy, and character diversity."""
     length = len(password)
     entropy = calculate_shannon_entropy(password)
 
@@ -53,7 +53,7 @@ def evaluate_password_strength(password: str) -> dict:
     }
 
 def analyze_url_safety(url: str) -> dict:
-    """Heuristically analyzes a URL for phishing indicators."""
+    """Analyzes a URL for phishing indicators."""
     reasons = []
     parsed_url = urlparse(url)
     domain = parsed_url.netloc or parsed_url.path.split('/')[0]
